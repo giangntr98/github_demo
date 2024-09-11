@@ -21,9 +21,6 @@
         <mxCell id="BsbmPP_DmYxsKIRS5x8Z-2" value="&lt;div&gt;OMS COMPL:ETED&lt;/div&gt;&lt;div&gt;chỉ ghi nhận duy nhất 1 lần&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BsbmPP_DmYxsKIRS5x8Z-9" value="lưu redis" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="312.25" y="313" width="57.5" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="BsbmPP_DmYxsKIRS5x8Z-10" value="lưu redis" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="244.75" y="650" width="67.5" height="20" as="geometry" />
         </mxCell>
@@ -110,7 +107,7 @@
           <mxGeometry x="216" y="210" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BsbmPP_DmYxsKIRS5x8Z-81" value="&lt;div&gt;MainKey: FLC_OMS_Completed&lt;br&gt;&lt;/div&gt;&lt;div&gt;Key: OrderCode,&lt;/div&gt;Value: &quot;&quot;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="203.5" y="680" width="150" height="80" as="geometry" />
+          <mxGeometry x="171" y="680" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BsbmPP_DmYxsKIRS5x8Z-91" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="400" y="190" width="30" height="30" as="geometry" />
@@ -119,7 +116,7 @@
           <mxGeometry x="307.5" y="750" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BsbmPP_DmYxsKIRS5x8Z-93" value="&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;check Redis (2)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;retry 3 lần, mỗi lần cách nhau n (s) =&amp;gt; dùng state, set onTimer&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="378.5" y="283" width="150" height="50" as="geometry" />
+          <mxGeometry x="547.5" y="270" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BsbmPP_DmYxsKIRS5x8Z-96" value="&lt;div&gt;no&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="810" y="440" width="40" height="30" as="geometry" />
@@ -148,23 +145,23 @@
         <mxCell id="BsbmPP_DmYxsKIRS5x8Z-113" value="time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="766" y="590" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BsbmPP_DmYxsKIRS5x8Z-115" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
+        <mxCell id="BsbmPP_DmYxsKIRS5x8Z-115" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1" source="BsbmPP_DmYxsKIRS5x8Z-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340.83" y="648" as="sourcePoint" />
-            <mxPoint x="340.58" y="338" as="targetPoint" />
+            <mxPoint x="520.25" y="648" as="sourcePoint" />
+            <mxPoint x="520" y="338" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AWXA4mH6_cxEoybU3VET-1" value="t1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="315" y="620" width="30" height="30" as="geometry" />
+          <mxGeometry x="380" y="620" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-__aogC1wngKleKFRekh-1" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="444.83000000000004" y="648" as="sourcePoint" />
-            <mxPoint x="444.58000000000004" y="338" as="targetPoint" />
+            <mxPoint x="600.25" y="650" as="sourcePoint" />
+            <mxPoint x="600" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-__aogC1wngKleKFRekh-3" value="t2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="412.5" y="620" width="30" height="30" as="geometry" />
+          <mxGeometry x="495" y="620" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-__aogC1wngKleKFRekh-5" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -174,6 +171,30 @@
         </mxCell>
         <mxCell id="-__aogC1wngKleKFRekh-6" value="t0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="240" y="620" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-__aogC1wngKleKFRekh-7" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="BsbmPP_DmYxsKIRS5x8Z-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="496" y="648" as="sourcePoint" />
+            <mxPoint x="520" y="338" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="496" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsbmPP_DmYxsKIRS5x8Z-9" value="lưu redis" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="467.5" y="330" width="57.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-__aogC1wngKleKFRekh-8" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380.25" y="648" as="sourcePoint" />
+            <mxPoint x="380" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-__aogC1wngKleKFRekh-9" value="&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;check Redis (1)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;retry 3 lần, mỗi lần cách nhau n (s) =&amp;gt; dùng state, set onTimer&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="650" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-__aogC1wngKleKFRekh-10" value="t3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="620" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
